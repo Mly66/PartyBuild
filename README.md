@@ -12,26 +12,6 @@ PartyBuild 是一款智慧党建管理系统，旨在为党组织提供全面、
 ## 技术架构
 
 ### 前端
-- **Vue 3**：用于构建现代化的用户界面。
-- **Vite**：现代化的前端构建工具，提供快速的开发体验。
-- **Element-Plus**：基于 Vue 3 的桌面端组件库，提供丰富的 UI 组件。
-- **Vue Router**：用于实现前端路由管理。
-- **Axios**：用于与后端 API 进行通信。
-- **@vue-office**：集成了 Office 文档处理功能，如 Word、Excel、PDF 文件操作。
-
-### 后端
-- **Spring Boot**：开箱即用的 Spring 框架，提供快速的后端开发体验。
-- **MyBatis**：用于数据持久化的 ORM 框架，简化数据库操作。
-- **MySQL**：关系型数据库，用于存储系统数据。
-- **Lombok**：减少 Java 代码的冗余，通过注解自动生成 Getter、Setter 等方法。
-- **MyBatis Generator**：用于自动生成 MyBatis 配置和映射文件，简化数据库操作。
-- **Maven**：项目管理和构建工具，简化依赖管理和项目构建过程。
-
-
-## 项目配置
-
-### 前端配置
-前端项目使用 **Vite** 和 **Vue3** 构建，相关依赖配置如下：
 
 - **@element-plus/icons-vue**：用于 Element Plus 图标支持。
 - **@vue-office/docx**、**@vue-office/excel**、**@vue-office/pdf**：用于处理 Office 文档格式（Word、Excel、PDF）。
@@ -40,8 +20,7 @@ PartyBuild 是一款智慧党建管理系统，旨在为党组织提供全面、
 - **element-plus**：提供的 UI 组件库。
 - **vue-router**：用于处理前端路由。
 
-### 后端配置
-后端项目使用了以下技术栈：
+### 后端
 
 - **Spring Boot** 作为基础框架，提供快速构建的体验。
 - **MyBatis** 作为 ORM 框架，简化与数据库的交互。
