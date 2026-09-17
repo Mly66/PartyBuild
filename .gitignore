@@ -1,0 +1,58 @@
+# ---------- Maven ----------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# ---------- 编译产物 ----------
+# 注意: 不使用 *.jar / *.war / *.ear 通配规则
+# 因为 lib/ 与 WEB-INF/lib/ 下的第三方依赖 jar 必须随仓库提交
+# 构建产物由上面的 target/ 规则覆盖
+*.class
+
+# ---------- 日志 ----------
+logs/
+*.log
+
+# ---------- IDE: IntelliJ ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---------- IDE: Eclipse ----------
+.project
+.classpath
+.settings/
+bin/
+
+# ---------- IDE: VSCode ----------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# ---------- 前端 ----------
+node_modules/
+dist/
+.output/
+.nuxt/
+.cache/
+.temp/
+*.local
+
+# ---------- 环境变量 ----------
+# .env.development / .env.production 属于项目构建配置，需提交
+# 仅忽略含本地密钥的文件
+.env.local
+.env.*.local
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
